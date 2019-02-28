@@ -3,11 +3,11 @@
         "baseUrl": ".",
         "paths": {
             "*": [ "./*" ],
-            "src/*": ["./src/*"]
+            "src/*": ["./test/*"]
         },
         "types": ["node", "@wdio/sync", "@wdio/mocha-framework"]
     },
     "include": [
-        "./src/**/*.ts"
+        "./test/**/*.ts"
     ]
 }
